@@ -1,4 +1,4 @@
-export ZDOTDIR=$HOME/.config/zsh/
+export ZDOTDIR="$HOME/.config/zsh/"
 
 # XDG Paths
 export XDG_CONFIG_HOME="$HOME/.config"
