@@ -10,7 +10,7 @@ addpath "$HOME/.cargo/bin"
 addpath "/usr/local/go/bin"
 
 # poetry
-addpath "$HOME/.local/bin"
+addpath "$HOME/.local/bin/poetry"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
