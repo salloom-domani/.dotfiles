@@ -6,6 +6,9 @@ export MANPAGER='nvim +Man!'
 # rust
 addpath "$HOME/.cargo/bin"
 
+# go
+addpath "/usr/local/go/bin"
+
 # poetry
 addpath "$HOME/.local/bin"
 
