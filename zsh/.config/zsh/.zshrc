@@ -6,8 +6,8 @@
 plug "zsh-users/zsh-autosuggestions"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zap-zsh/supercharge"
+plug "zap-zsh/fzf"
 plug "romkatv/powerlevel10k"
-plug "Aloxaf/fzf-tab"
 
 
 # source
