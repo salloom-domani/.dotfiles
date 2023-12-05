@@ -16,6 +16,10 @@ plug "$ZDOTDIR/include/functions.zsh"
 plug "$ZDOTDIR/include/aliases.zsh"
 plug "$ZDOTDIR/include/exports.zsh"
 
+fpath=($ZDOTDIR/completions $fpath)
+
+autoload -Uz compinit
+compinit
 
 # bun completions
 plug "$HOME/.bun/_bun"
