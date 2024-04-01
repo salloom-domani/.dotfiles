@@ -12,6 +12,7 @@ if wezterm.config_builder then
 end
 
 -- This is where you actually apply your config choices
+config.font_size = 14
 
 -- Copy/Paste on mouse right click
 config.mouse_bindings = {
@@ -36,6 +37,8 @@ config.window_padding = {
 	top = 0,
 	bottom = 0,
 }
+
+-- config.window_decorations = "RESIZE"
 
 config.tab_bar_at_bottom = true
 config.freetype_load_target = "HorizontalLcd"
