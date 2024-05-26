@@ -7,7 +7,8 @@ export MANPAGER='nvim +Man!'
 addpath "$HOME/.cargo/bin"
 
 # go
-addpath "/usr/local/go/bin"
+export GOPATH="$HOME/go"
+addpath "$GOPATH/bin"
 
 # poetry
 addpath "$HOME/.local/bin/poetry"
