@@ -27,3 +27,8 @@ eval "`fnm env`"
 
 # Turso
 addpath "$HOME/.turso"
+
+# android
+export ANDROID_HOME="/mnt/Extended/Android/Sdk"
+addpath "$ANDROID_HOME/emulator"
+addpath "$ANDROID_HOME/platform-tools"
