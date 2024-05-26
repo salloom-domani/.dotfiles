@@ -18,7 +18,11 @@ fpath=($ZDOTDIR/completions $fpath)
 
 autoload -Uz compinit && compinit
 
+# starship
 eval "$(starship init zsh)"
+
+# zoxide
+eval "$(zoxide init zsh)"
 
 # keybindings
 bindkey -e
