@@ -1,6 +1,6 @@
 export EDITOR="nvim"
 export TERMINAL="wezterm"
-export BROWSER="chrome"
+export BROWSER="brave"
 export MANPAGER='nvim +Man!'
 
 # rust
