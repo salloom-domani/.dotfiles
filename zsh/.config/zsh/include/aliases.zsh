@@ -4,6 +4,3 @@ alias la='ls -Al'
 alias cp="cp -i"
 alias mv='mv -i'
 alias rm='rm -i'
-
-# This is GOLD for finding out what is taking so much space on your drives!
-alias diskspace="du -S | sort -n -r | more"

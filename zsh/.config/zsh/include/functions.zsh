@@ -25,3 +25,8 @@ function extract () {
     echo "'$1' is not a valid file"
   fi
 }
+
+# This is GOLD for finding out what is taking so much space on your drives!
+function diskspace() {
+  du -Sch "$1" | less
+}
