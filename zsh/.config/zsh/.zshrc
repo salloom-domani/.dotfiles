@@ -29,6 +29,8 @@ bindkey -e
 bindkey '^y' autosuggest-accept
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
+bindkey '^h' backward-word
+bindkey '^l' forward-word
 
 # bun completions
 # plug "$HOME/.bun/_bun"
