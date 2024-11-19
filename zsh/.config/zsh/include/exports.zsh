@@ -17,6 +17,9 @@ addpath "$HOME/.local/bin/poetry"
 export BUN_INSTALL="$HOME/.bun"
 addpath "$BUN_INSTALL/bin"
 
+# deno
+addpath "$HOME/.deno/bin"
+
 # pnpm
 export PNPM_HOME="$HOME/.local/share/pnpm"
 addpath $PNPM_HOME
