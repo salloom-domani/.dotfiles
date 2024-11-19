@@ -24,6 +24,9 @@ eval "$(starship init zsh)"
 # zoxide
 eval "$(zoxide init zsh)"
 
+# keychain
+eval $(keychain --agents ssh --inherit any-once --quiet --eval id_ed25519)
+
 # keybindings
 bindkey -e
 bindkey '^y' autosuggest-accept
