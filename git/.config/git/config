@@ -2,3 +2,5 @@
 	email = salem.domani@gmail.com
 	name = Salem Domani
 
+[init]
+	defaultBranch = main
