@@ -24,6 +24,9 @@ eval "$(starship init zsh)"
 # zoxide
 eval "$(zoxide init zsh)"
 
+# uv
+eval "$(uv generate-shell-completion zsh)"
+
 # keychain
 eval $(keychain --agents ssh --inherit any-once --quiet --eval id_ed25519)
 
