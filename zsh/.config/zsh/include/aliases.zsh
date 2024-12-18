@@ -1,3 +1,4 @@
+alias ls='eza --icons=always'
 alias la='ls -Al'
 
 # confirm before overwriting something
