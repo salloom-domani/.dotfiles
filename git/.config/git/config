@@ -1,9 +1,12 @@
 [user]
-	email = salem.domani@gmail.com
-	name = Salem Domani
+  email = salem.domani@gmail.com
+  name = Salem Domani
 
 [init]
-	defaultBranch = main
+  defaultBranch = main
+
+[pull]
+  rebase = true
 
 [include]
   path = ~/.config/delta/themes/catppuccin.gitconfig
