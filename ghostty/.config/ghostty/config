@@ -1,0 +1,34 @@
+# Fonts
+font-size = 14
+adjust-underline-position = 4
+
+# Mouse
+mouse-hide-while-typing = true
+copy-on-select = false
+
+# Theme
+theme = catppuccin-mocha
+background-opacity = 0.9
+cursor-invert-fg-bg = true
+cursor-style-blink = false
+adjust-cursor-thickness = 2
+
+
+# Keybindings
+keybind = ctrl+shift+l=next_tab
+keybind = ctrl+shift+h=previous_tab
+keybind = ctrl+shift+comma=move_tab:-1
+keybind = ctrl+shift+period=move_tab:1
+keybind = ctrl+shift+r=reload_config
+
+# Window
+gtk-single-instance = true
+gtk-tabs-location = bottom
+gtk-wide-tabs = false
+window-padding-y = 2,0
+window-padding-balance = true
+window-decoration = false
+
+# Other
+copy-on-select = clipboard
+shell-integration-features = no-cursor,sudo,no-title
