@@ -1,47 +1,41 @@
--- Pull in the wezterm API
 local wezterm = require("wezterm")
-local act = wezterm.action
+local config = wezterm.config_builder()
 
--- This table will hold the configuration.
-local config = {}
+-- log when reloading
+wezterm.log_info("reloading")
 
--- In newer versions of wezterm, use the config_builder which will
--- help provide clearer error messages
-if wezterm.config_builder then
-	config = wezterm.config_builder()
-end
+require("tabs").setup(config)
+require("mouse").setup(config)
+require("keys").setup(config)
 
--- This is where you actually apply your config choices
-config.font_size = 14
+-- config.term = "wezterm"
 
--- Copy/Paste on mouse right click
-config.mouse_bindings = {
-	{
-		event = { Down = { streak = 1, button = "Right" } },
-		mods = "NONE",
-		action = act.PasteFrom("Clipboard"),
-	},
-}
-
--- For example, changing the color scheme:
+-- Colorscheme
 config.color_scheme = "Catppuccin Mocha"
 
--- default is true, has more "native" look
-config.use_fancy_tab_bar = false
-
--- I don't like putting anything at the ege if I can help it.
-config.enable_scroll_bar = false
-config.window_padding = {
-	left = 0,
-	right = 0,
-	top = 0,
-	bottom = 0,
+config.colors = {
+	indexed = { [241] = "#65bcff" },
 }
 
--- config.window_decorations = "RESIZE"
+config.underline_thickness = 2
+config.underline_position = -6
 
-config.tab_bar_at_bottom = true
-config.freetype_load_target = "HorizontalLcd"
+-- Fonts
+config.font_size = 14
+config.font = wezterm.font({ family = "JetBrains Mono" })
 
--- and finally, return the configuration to wezterm
+-- Cursor
+config.force_reverse_video_cursor = true
+
+config.window_decorations = "NONE"
+config.window_padding = { left = 0, right = 0, top = 0, bottom = 0 }
+config.window_background_opacity = 0.9
+-- config.scrollback_lines = 10000
+
+-- Command Palette
+config.command_palette_font_size = 16
+config.command_palette_rows = 10
+config.command_palette_bg_color = "#11111b"
+config.command_palette_fg_color = "#74c7ec"
+
 return config
