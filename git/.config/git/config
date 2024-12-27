@@ -4,3 +4,13 @@
 
 [init]
 	defaultBranch = main
+
+[include]
+  path = ~/.config/delta/themes/catppuccin.gitconfig
+
+[delta]
+  features = catppuccin-mocha
+  navigate = true
+  light = false
+  sidy-by-side = false
+  line-numbers = true
