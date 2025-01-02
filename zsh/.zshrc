@@ -38,5 +38,10 @@ bindkey '^n' history-search-forward
 bindkey '^h' backward-word
 bindkey '^l' forward-word
 
+zle     -N             sesh-sessions
+bindkey -M emacs '\es' sesh-sessions
+bindkey -M vicmd '\es' sesh-sessions
+bindkey -M viins '\es' sesh-sessions
+
 # bun completions
 # plug "$HOME/.bun/_bun"
