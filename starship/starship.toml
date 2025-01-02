@@ -36,6 +36,9 @@ symbol = " "
 [c]
 symbol = " "
 
+[zig]
+symbol = " "
+
 [conda]
 symbol = " "
 
@@ -110,6 +113,9 @@ symbol = " "
 
 [spack]
 symbol = "🅢 "
+
+[cmake]
+symbol = ""
 
 [os.symbols]
 Alpine = " "
