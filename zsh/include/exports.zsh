@@ -20,13 +20,8 @@ addpath "$BUN_INSTALL/bin"
 # deno
 addpath "$HOME/.deno/bin"
 
-# pnpm
-export PNPM_HOME="$HOME/.local/share/pnpm"
-addpath $PNPM_HOME
-
-# fnm
-addpath "$HOME/.local/share/fnm"
-eval "`fnm env`"
+# volta
+addpath "$HOME/.volta/bin"
 
 # Turso
 addpath "$HOME/.turso"
