@@ -30,5 +30,4 @@ window-padding-balance = true
 window-decoration = false
 
 # Other
-copy-on-select = clipboard
 shell-integration-features = no-cursor,sudo,no-title
