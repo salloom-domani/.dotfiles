@@ -20,6 +20,11 @@ keybind = ctrl+shift+h=previous_tab
 keybind = ctrl+shift+comma=move_tab:-1
 keybind = ctrl+shift+period=move_tab:1
 keybind = ctrl+shift+r=reload_config
+keybind = ctrl+alt+k=goto_split:up
+keybind = ctrl+alt+j=goto_split:down
+keybind = ctrl+alt+l=goto_split:right
+keybind = ctrl+alt+h=goto_split:left
+keybind = shift+enter=text:\x1b\r
 
 # Window
 gtk-single-instance = true
