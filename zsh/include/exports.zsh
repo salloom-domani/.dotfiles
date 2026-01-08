@@ -23,7 +23,7 @@ addpath "$HOME/.deno/bin"
 # volta
 addpath "$HOME/.volta/bin"
 
-# Turso
+# turso
 addpath "$HOME/.turso"
 
 # android
@@ -31,3 +31,6 @@ export ANDROID_HOME="$HOME/Android/Sdk"
 export ANDROID_AVD_HOME="$HOME/.config/.android/avd"
 addpath "$ANDROID_HOME/emulator"
 addpath "$ANDROID_HOME/platform-tools"
+
+# bob
+addpath "$HOME/.local/share/bob/nvim-bin"

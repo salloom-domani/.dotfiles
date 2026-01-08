@@ -28,7 +28,7 @@ eval "$(zoxide init zsh)"
 eval "$(uv generate-shell-completion zsh)"
 
 # keychain
-eval $(keychain --agents ssh --inherit any-once --quiet --eval id_ed25519)
+eval $(keychain --eval --quiet id_ed25519)
 
 # keybindings
 bindkey -e
@@ -42,6 +42,3 @@ zle     -N             sesh-sessions
 bindkey -M emacs '\es' sesh-sessions
 bindkey -M vicmd '\es' sesh-sessions
 bindkey -M viins '\es' sesh-sessions
-
-# bun completions
-# plug "$HOME/.bun/_bun"
