@@ -47,7 +47,7 @@
       "outputColor": "36;1",
     },
     {
-      "key": "│           │\u001b[11D{#31}󰇄  \u001b[{#37}desktop",
+      "key": "│           │\u001b[11D{#31}  \u001b[{#37}desktop",
       "type": "de",
       "outputColor": "31;1",
     },
@@ -79,15 +79,21 @@
       "outputColor": "36;1",
     },
     {
-      "key": "│           │\u001b[11D{#31}󰉉  \u001b[{#37}disk",
-      "type": "disk",
-      "folders": "/",
+      "key": "│           │\u001b[11D{#31}󰍹  \u001b[{#37}gpu",
+      "type": "gpu",
+      "format": "{name}",
       "outputColor": "31;1",
     },
     {
-      "key": "│           │\u001b[11D{#32}  \u001b[{#37}memory",
-      "type": "memory",
+      "key": "│           │\u001b[11D{#32}󰉉  \u001b[{#37}disk",
+      "type": "disk",
+      "folders": "/",
       "outputColor": "32;1",
+    },
+    {
+      "key": "│           │\u001b[11D{#33}  \u001b[{#37}memory",
+      "type": "memory",
+      "outputColor": "33;1",
     },
     {
       "key": "├───────────┤",
