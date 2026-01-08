@@ -7,8 +7,8 @@ mouse-hide-while-typing = true
 copy-on-select = false
 
 # Theme
-theme = catppuccin-mocha
-background-opacity = 0.9
+theme = dark:Catppuccin Mocha,light:Catppuccin Latte
+# background-opacity = 0.9
 cursor-invert-fg-bg = true
 cursor-style-blink = false
 adjust-cursor-thickness = 2
